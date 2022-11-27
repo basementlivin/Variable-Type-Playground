@@ -1,0 +1,21 @@
+@import "../fonts/fonts.scss";
+
+// FONT ZONE!
+$Halibut: "Halibut";
+$ZaftA: "ZaftA";
+$ZaftB: "ZaftB";
+$ZaftC: "ZaftC";
+
+// COLOR ZONE!
+$backgroundCream: #FAF6B5;
+$blackType: #161515;
+
+// MIXINS ZONE!
+@mixin flexbox($flow, $gap) {
+    display: flex;
+    flex-flow: $flow;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: $gap;
+}

@@ -1,0 +1,9 @@
+@import "../variables/variables.scss";
+@import "../animations/animations.scss";
+
+* {
+    background-color: $backgroundCream;
+    text-align: center;
+    margin: 0 auto;
+    user-select: none;
+}
