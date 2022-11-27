@@ -11,11 +11,10 @@ $backgroundCream: #FAF6B5;
 $blackType: #161515;
 
 // MIXINS ZONE!
-@mixin flexbox($flow, $gap) {
+@mixin flexbox-column-nowrap {
     display: flex;
-    flex-flow: $flow;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     align-content: center;
-    gap: $gap;
 }

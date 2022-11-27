@@ -7,3 +7,14 @@
     margin: 0 auto;
     user-select: none;
 }
+
+body {
+    @include flexbox-column-nowrap;
+}
+
+h1 {
+    font-family: $Halibut;
+    font-size: 4em;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+}

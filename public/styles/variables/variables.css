@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Halibut";
+  src: url("../../fonts/HalibutSerif-Variable.woff2") format("woff2"), url("../../fonts/HalibutSerif-Variable.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ZaftA";
+  src: url("../../fonts/WTZaft2VariableA.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ZaftB";
+  src: url("../../fonts/WTZaft2VariableB.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ZaftC";
+  src: url("../../fonts/WTZaft2VariableC.ttf") format("truetype");
+}/*# sourceMappingURL=variables.css.map */

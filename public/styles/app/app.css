@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Halibut";
+  src: url("../../fonts/HalibutSerif-Variable.woff2") format("woff2"), url("../../fonts/HalibutSerif-Variable.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ZaftA";
+  src: url("../../fonts/WTZaft2VariableA.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ZaftB";
+  src: url("../../fonts/WTZaft2VariableB.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ZaftC";
+  src: url("../../fonts/WTZaft2VariableC.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Halibut";
+  src: url("../../fonts/HalibutSerif-Variable.woff2") format("woff2"), url("../../fonts/HalibutSerif-Variable.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ZaftA";
+  src: url("../../fonts/WTZaft2VariableA.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ZaftB";
+  src: url("../../fonts/WTZaft2VariableB.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ZaftC";
+  src: url("../../fonts/WTZaft2VariableC.ttf") format("truetype");
+}
+* {
+  background-color: #FAF6B5;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+h1 {
+  font-family: "Halibut";
+  font-size: 4em;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+}/*# sourceMappingURL=app.css.map */
