@@ -23,4 +23,22 @@
 
 #thicker-on-hover:hover {
   font-variation-settings: "wght" 700;
+}
+
+@-webkit-keyframes wiggle-on-hover {
+  from {
+    font-variation-settings: "wght" 315;
+  }
+  to {
+    font-variation-settings: "wght" 400;
+  }
+}
+
+@keyframes wiggle-on-hover {
+  from {
+    font-variation-settings: "wght" 315;
+  }
+  to {
+    font-variation-settings: "wght" 400;
+  }
 }/*# sourceMappingURL=animations.css.map */

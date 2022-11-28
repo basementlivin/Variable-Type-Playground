@@ -10,3 +10,13 @@
 #thicker-on-hover:hover {
     font-variation-settings: 'wght' 700;
 }
+
+@keyframes wiggle-on-hover {
+    from {
+        font-variation-settings: "wght" 315;
+    }
+    to {
+        font-variation-settings: "wght" 400;
+    }
+    }
+
