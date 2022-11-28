@@ -13,4 +13,14 @@
 @font-face {
   font-family: "ZaftC";
   src: url("../../fonts/WTZaft2VariableC.ttf") format("truetype");
+}
+#thicker-on-hover {
+  font-family: "ZaftA", Icons;
+  font-variation-settings: "wght" 300;
+  transition: font-variation-settings 0.33s ease;
+  font-style: normal;
+}
+
+#thicker-on-hover:hover {
+  font-variation-settings: "wght" 700;
 }/*# sourceMappingURL=animations.css.map */
