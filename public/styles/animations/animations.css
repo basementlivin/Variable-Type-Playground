@@ -14,20 +14,20 @@
   font-family: "ZaftC";
   src: url("../../fonts/WTZaft2VariableC.ttf") format("truetype");
 }
-#thicker-on-hover {
+.thicker-on-hover {
   font-family: "ZaftA", Icons;
   font-variation-settings: "wght" 300;
   transition: font-variation-settings 0.33s ease;
   font-style: normal;
 }
 
-#thicker-on-hover:hover {
+.thicker-on-hover:hover {
   font-variation-settings: "wght" 700;
 }
 
 @-webkit-keyframes wiggle-on-hover {
   from {
-    font-variation-settings: "wght" 315;
+    font-variation-settings: "wght" 300;
   }
   to {
     font-variation-settings: "wght" 400;
@@ -36,9 +36,28 @@
 
 @keyframes wiggle-on-hover {
   from {
-    font-variation-settings: "wght" 315;
+    font-variation-settings: "wght" 300;
   }
   to {
     font-variation-settings: "wght" 400;
   }
+}
+.wiggle-on-hover {
+  font-family: "ZaftA", Icons;
+  font-variation-settings: "wght" 300;
+  font-style: normal;
+  transition: font-variation-settings 0.3s ease;
+}
+
+.wiggle-on-hover:hover {
+  -webkit-animation-name: wiggle-on-hover;
+          animation-name: wiggle-on-hover;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }/*# sourceMappingURL=animations.css.map */
